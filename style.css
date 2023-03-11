@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(https://media.istockphoto.com/id/1140265911/photo/modern-brick-wall-3d-rendering.jpg?b=1&s=170667a&w=0&k=20&c=-7ivo8JXj4dZp49xYClCEAjnGN3fio2zq4cRAfnaQWo=);
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:none;
+    padding: 30px 20px ; 
+    color: #fff;
+    
+    
+} 
+
+
+
+.logo {
+    max-height: 60px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px;
+    color: peachpuff;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+     ;
+}
+.nav ul li{
+    margin-right: 10px;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+.navbar ul li a:hover{
+    
+    color:rgb(48, 6, 6);
+}
+.home-section{
+    color: ghostwhite;
+    height: 100vh;
+    text-align: center;
+    padding: 50px;
+}
+
+.home-section h1{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    right: 25%;
+}
+.about-section{
+    background-image: url(https://images.unsplash.com/photo-1500534623283-312aade485b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJyaWdodHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    padding: 100px;
+    color: black;
+    
+}
+.about-header h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+
+}
+
+.about-content p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.about-list{
+    list-style-type: none;
+}
+.skills-section {
+    background-image: url(https://unsplash.com/photos/KTGBkzzE8BM);
+    padding: 40px;
+    color: aliceblue;
+}
+.skills-section h1{
+    text-align: center;
+        font-size: 40px;
+        padding-bottom: 20px;
+        color: aliceblue;
+}
+.contact-section {
+    background-color: yellow;
+    padding: 5px;
+    text-align: center;
+    background-size: cover;
+
+}
+
+.contact-section h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.contact-section p {
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+footer {
+    color: aliceblue;
+    padding: 50px;
+    text-align: center;
+}
+
